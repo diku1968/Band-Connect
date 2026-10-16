@@ -1,0 +1,6 @@
+{
+  "name": "BandConnect",
+  "description": "Location-based social networking and collaboration platform for musicians, vocalists, songwriters, and music producers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

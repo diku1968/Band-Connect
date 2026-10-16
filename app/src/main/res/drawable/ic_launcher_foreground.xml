@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="18"
+        android:translateY="18"
+        android:scaleX="1.5"
+        android:scaleY="1.5">
+        <!-- Modern dynamic music waveform + guitar pick emblem -->
+        <!-- Pick / Shield Background -->
+        <path
+            android:pathData="M24,4 C14,4 6,10 6,22 C6,34 22,44 24,44 C26,44 42,34 42,22 C42,10 34,4 24,4 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="12"
+                    android:startY="6"
+                    android:endX="36"
+                    android:endY="42"
+                    android:type="linear">
+                    <item android:color="#7C3AED" android:offset="0.0" />
+                    <item android:color="#4F46E5" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <!-- Musical notes & sound waves overlay -->
+        <path
+            android:fillColor="#FBBF24"
+            android:pathData="M20,14 L20,26 A4,4 0 1,1 17,23 A4,4 0 0,1 20,26 L20,18 L30,15 L30,24 A4,4 0 1,1 27,21 A4,4 0 0,1 30,24 L30,12 Z" />
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:pathData="M11,20 C10,22 10,25 11,27 M37,20 C38,22 38,25 37,27" />
+    </group>
+</vector>
